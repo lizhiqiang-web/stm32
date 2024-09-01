@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\USER -I..\FWLIB\inc -I..\CORE -I..\SYSTEM\Systick -I..\HARDWARE\KEY -I..\FWLIB\src -I..\HARDWARE\LED
+-I D:\32deomo\USER\RTE
+-I D:\stm32\keil5stm32\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-I D:\stm32\keil5stm32\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx
+-o .\objects\er_ospeedr9_1.o --omf_browse .\objects\er_ospeedr9_1.crf --depend .\objects\er_ospeedr9_1.d "main.c"
